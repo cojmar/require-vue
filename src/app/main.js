@@ -1,4 +1,5 @@
-define(function (require) {
+define(function (require) {    
+    require('bootstrap.min');require('css!assets/css/bootstrap.min');
     require('css!assets/css/main');
     var $ = require('jquery');
     var Vue = require('Vue');

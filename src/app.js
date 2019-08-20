@@ -17,7 +17,8 @@ requirejs.config({
         assets:'../assets',
         vuejs:"require-vuejs",
         Vue: 'vue',
-        vue: '../vue'
+        vue: '../vue',
+        popper:'proper.min',
     }
 });
 
